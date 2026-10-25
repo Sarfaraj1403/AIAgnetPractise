@@ -1,0 +1,635 @@
+%PDF-1.4
+%????
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R] /Count 6 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 6176 >>
+stream
+0.090 0.290 0.480 rg BT /F2 21 Tf 1 0 0 1 46.00 766.32 Tm (Test Plan: VWO Login Dashboard) Tj ET
+0.090 0.290 0.480 RG 2 w 46 758.54 m 549.28 758.54 l S
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 722.99 Tm (Objective) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 706.58 Tm (Verify that the VWO login experience provides secure, accessible, responsive, and performant access to the VWO) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 693.38 Tm (platform, and that authentication and recovery flows behave as defined in the PRD.) Tj ET
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 659.34 Tm (Scope) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 642.93 Tm (Validate the login page and its related authentication, account recovery, session, enterprise access, and post-login) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 629.73 Tm (transitions. Confirm that measurable targets in the PRD are assessed and that failures can be recovered from with) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 616.53 Tm (clear user feedback.) Tj ET
+0.090 0.290 0.480 rg BT /F2 11.5 Tf 1 0 0 1 46.00 586.58 Tm (Inclusions) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 570.80 Tm ( - Email/password login, field validation, password requirements, and authentication error handling.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 555.60 Tm ( - Remember Me behavior, session handling, session timeout, and successful dashboard transition.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 540.40 Tm ( - Password reset and email-based account recovery.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 525.20 Tm ( - Optional MFA and enterprise SSO, subject to availability in the test environment.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 510.00 Tm ( - Registration/free-trial link and the login-page announcement, including light and dark themes.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 494.80 Tm ( - Responsive layout, auto-focus, clickable labels, loading states, keyboard navigation, screen-reader support, high) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 481.60 Tm (contrast, and WCAG 2.1 AA checks.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 466.40 Tm ( - HTTPS enforcement, authentication data protection, secure session handling, rate limiting, and applicable) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 453.20 Tm (GDPR/CCPA and enterprise audit requirements.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 438.00 Tm ( - Login-page load time, concurrent login behavior, availability, and geographic performance requirements.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 422.80 Tm ( - Core platform transition, login success/failure analytics, support integration, and any enabled third-party identity) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 409.60 Tm (providers.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 394.40 Tm ( - Verification of the PRD's stated success metrics where suitable measurement data is available.) Tj ET
+0.090 0.290 0.480 rg BT /F2 11.5 Tf 1 0 0 1 46.00 366.46 Tm (Exclusions and Conditional Scope) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 350.68 Tm ( - Biometric authentication, adaptive authentication, and progressive web app capabilities are listed as future) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 337.48 Tm (enhancements and are excluded from this release's acceptance testing.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 322.28 Tm ( - Social login is described as optional. Include it only if the release explicitly enables it and provides configured) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 309.08 Tm (identity-provider test accounts.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 293.88 Tm ( - Optional MFA, SSO protocols, recovery methods, and integrations are tested only when implemented and configured) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 280.68 Tm (for the release. Their exact supported modes must be confirmed before execution.) Tj ET
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 248.64 Tm (Test Environments) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 232.23 Tm (Use an approved, production-like non-production environment with HTTPS and the authentication, platform,) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 219.03 Tm (email-recovery, analytics, support, and identity-provider integrations enabled for the release. Use dedicated test) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 205.83 Tm (accounts representing standard and enterprise users, including accounts configured for MFA/SSO where supported.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 188.63 Tm (The PRD does not specify browser/OS support, device matrix, environment URLs, identity-provider configuration, test) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 175.43 Tm (data, or access to production-like load infrastructure. The project team must confirm these before execution. Do not) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 162.23 Tm (use real user credentials or personal data in test cases.) Tj ET
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 128.19 Tm (Defect Reporting Procedure) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 111.78 Tm (Record each defect in the project-approved tracking system. Include a concise title, environment and browser/device,) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 98.58 Tm (preconditions and test account type, reproducible steps, expected and actual results, evidence with sensitive data) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 85.38 Tm (removed, severity/priority, and the affected requirement or test case. Triage security and privacy issues through the) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 72.18 Tm (approved restricted process. Retest fixes in the originating environment and run relevant regression checks.) Tj ET
+0.400 0.450 0.520 rg BT /F1 7.5 Tf 1 0 0 1 46.00 25.00 Tm (VWO Login Dashboard Test Plan  |  Page 1 of 6) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 8601 >>
+stream
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 782.18 Tm (The tracker, severity definitions, response targets, and escalation contacts are not specified in the PRD and must be) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 768.98 Tm (confirmed by the project team.) Tj ET
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 734.94 Tm (Test Strategy) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 718.53 Tm ( - 1. Requirements review: Map each functional and non-functional requirement to one or more test cases. Resolve) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 705.33 Tm (ambiguities before treating optional capabilities as release blockers.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 690.13 Tm ( - 2. Functional testing: Exercise valid and invalid login, field validation, recovery, remember-me, sessions, themes,) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 676.93 Tm (registration navigation, loading, and success/error states.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 661.73 Tm ( - 3. Integration testing: Verify the authenticated transition to the VWO dashboard and behavior of enabled analytics,) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 648.53 Tm (support, SSO, MFA, email, and social identity integrations.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 633.33 Tm ( - 4. Compatibility and accessibility: Test the confirmed browser/device matrix at mobile and desktop sizes; check) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 620.13 Tm (keyboard-only use, focus order/visibility, labels, screen-reader announcements, contrast/high-contrast behavior,) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 606.93 Tm (and WCAG 2.1 AA criteria.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 591.73 Tm ( - 5. Security testing: Validate security requirements using approved test accounts and authorized test environments.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 578.53 Tm (Include rate-limit behavior and session protections; coordinate deeper security assessment with the authorized) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 565.33 Tm (security team. Do not conduct destructive or out-of-scope testing.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 550.13 Tm ( - 6. Performance and reliability: Measure login-page load against the 2-second target on the agreed standard) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 536.93 Tm (connection, exercise the agreed concurrent-login profile, and verify monitoring/evidence for availability and) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 523.73 Tm (geographic performance targets.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 508.53 Tm ( - 7. Regression testing: Rerun affected login, recovery, session, integration, accessibility, and responsive cases after) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 495.33 Tm (relevant changes.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 480.13 Tm ( - 8. Metrics validation: Confirm how login success rate, satisfaction, support volume, uptime, and security outcomes) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 466.93 Tm (are measured. Report observed values against PRD targets when reliable measurement data exists; do not infer a) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 453.73 Tm (metric from a small functional test sample.) Tj ET
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 421.69 Tm (Test Schedule) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 405.28 Tm (The PRD provides implementation phases but no dates or estimates. Execute testing in these release-aligned stages:) Tj ET
+0.890 0.930 0.970 rg 46 374.7899999999993 503.28 25 re f
+0.690 0.760 0.840 RG 0.45 w 46 374.7899999999993 503.28 25 re S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 52.00 386.69 Tm (Stage) Tj ET
+0.780 0.820 0.870 RG 0.45 w 156.7216 374.7899999999993 m 156.7216 399.7899999999993 l S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 162.72 386.69 Tm (Focus) Tj ET
+0.780 0.820 0.870 RG 0.45 w 373.13199999999995 374.7899999999993 m 373.13199999999995 399.7899999999993 l S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 379.13 386.69 Tm (Suggested timing) Tj ET
+1.000 1.000 1.000 rg 46 345.98999999999927 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 345.98999999999927 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 362.90 Tm (Phase 1: Core) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 353.50 Tm (Authentication) Tj ET
+0.780 0.820 0.870 RG 0.45 w 156.7216 345.98999999999927 m 156.7216 374.7899999999993 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 162.72 362.90 Tm (Login, validation, errors, password reset, and core security) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 162.72 353.50 Tm (checks) Tj ET
+0.780 0.820 0.870 RG 0.45 w 373.13199999999995 345.98999999999927 m 373.13199999999995 374.7899999999993 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 379.13 362.90 Tm (After core authentication is testable) Tj ET
+0.960 0.975 0.990 rg 46 317.18999999999926 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 317.18999999999926 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 334.10 Tm (Phase 2: Enhanced UX) Tj ET
+0.780 0.820 0.870 RG 0.45 w 156.7216 317.18999999999926 m 156.7216 345.98999999999927 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 162.72 334.10 Tm (Responsive behavior, accessibility, themes, loading states,) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 162.72 324.70 Tm (and advanced validation) Tj ET
+0.780 0.820 0.870 RG 0.45 w 373.13199999999995 317.18999999999926 m 373.13199999999995 345.98999999999927 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 379.13 334.10 Tm (After the enhanced UX build is available) Tj ET
+1.000 1.000 1.000 rg 46 288.38999999999925 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 288.38999999999925 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 305.30 Tm (Phase 3: Enterprise) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 295.90 Tm (Features) Tj ET
+0.780 0.820 0.870 RG 0.45 w 156.7216 288.38999999999925 m 156.7216 317.18999999999926 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 162.72 305.30 Tm (Configured SSO/MFA, security features, analytics,) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 162.72 295.90 Tm (monitoring, and integration checks) Tj ET
+0.780 0.820 0.870 RG 0.45 w 373.13199999999995 288.38999999999925 m 373.13199999999995 317.18999999999926 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 379.13 305.30 Tm (After enterprise integrations are available) Tj ET
+0.960 0.975 0.990 rg 46 259.58999999999924 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 259.58999999999924 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 276.50 Tm (Release regression) Tj ET
+0.780 0.820 0.870 RG 0.45 w 156.7216 259.58999999999924 m 156.7216 288.38999999999925 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 162.72 276.50 Tm (Recheck critical flows and resolved defects across the) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 162.72 267.10 Tm (agreed matrix) Tj ET
+0.780 0.820 0.870 RG 0.45 w 373.13199999999995 259.58999999999924 m 373.13199999999995 288.38999999999925 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 379.13 276.50 Tm (Before release approval) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 46.00 237.88 Tm (Dates, durations, owners, and environment availability are TBD by the project team.) Tj ET
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 203.84 Tm (Test Deliverables) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 187.43 Tm ( - Requirement-to-test traceability and the test cases/results.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 172.23 Tm ( - Test data and environment readiness record, excluding secrets and personal data.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 157.03 Tm ( - Defect log with retest outcomes.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 141.83 Tm ( - Functional, compatibility, accessibility, security-coordination, and performance summaries.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 126.63 Tm ( - Release test summary documenting pass/fail/blocked status, unresolved risks, metric evidence, and approval) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 113.43 Tm (decision.) Tj ET
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 81.39 Tm (Entry and Exit Criteria) Tj ET
+0.400 0.450 0.520 rg BT /F1 7.5 Tf 1 0 0 1 46.00 25.00 Tm (VWO Login Dashboard Test Plan  |  Page 2 of 6) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 5406 >>
+stream
+0.090 0.290 0.480 rg BT /F2 11.5 Tf 1 0 0 1 46.00 769.44 Tm (Entry Criteria) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 753.65 Tm ( - The release build and approved test environment are available over HTTPS.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 738.45 Tm ( - Requirements, supported browser/device matrix, enabled integrations, and optional feature scope are confirmed.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 723.25 Tm ( - Test accounts and safe test data are available, including configured MFA/SSO accounts where applicable.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 708.05 Tm ( - Critical integrations and test monitoring are available, and the defect reporting process is agreed.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 692.85 Tm ( - No known blocker prevents execution of the planned critical paths.) Tj ET
+0.090 0.290 0.480 rg BT /F2 11.5 Tf 1 0 0 1 46.00 664.91 Tm (Exit Criteria) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 649.13 Tm ( - All in-scope test cases have a recorded result; blocked or deferred tests have an owner and rationale.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 633.93 Tm ( - No unresolved critical or high-severity defects remain unless explicitly accepted by the release approver.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 618.73 Tm ( - Critical login, recovery, session, and dashboard-transition flows pass on the agreed supported matrix.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 603.53 Tm ( - Accessibility, security, performance, and reliability findings are documented and dispositioned by their responsible) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 590.33 Tm (owners.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 575.13 Tm ( - Available measurements are compared with PRD targets: 95%+ login success rate, login page load within 2 seconds,) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 561.93 Tm (99.9% uptime, 90%+ login-experience satisfaction, 20% reduction in login-related support tickets, and stated) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 548.73 Tm (security/compliance goals. Measurement periods, sources, and acceptance ownership must be agreed; the PRD does) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 535.53 Tm (not define them.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 520.33 Tm ( - Test summary and residual risks are reviewed for release approval.) Tj ET
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 488.29 Tm (Test Execution) Tj ET
+0.090 0.290 0.480 rg BT /F2 11.5 Tf 1 0 0 1 46.00 459.13 Tm (Execution Entry Criteria) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 443.35 Tm ( - Entry criteria above are met for the test stage.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 428.15 Tm ( - The build/version, environment, and test data are recorded.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 412.95 Tm ( - Testers have the required approved access and know the escalation route for security/privacy issues.) Tj ET
+0.090 0.290 0.480 rg BT /F2 11.5 Tf 1 0 0 1 46.00 385.01 Tm (Execution Exit Criteria) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 369.23 Tm ( - Results and evidence are recorded for executed cases.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 354.03 Tm ( - Defects are filed, prioritized, and linked to affected requirements; fixes are retested.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 338.83 Tm ( - Failed, blocked, and not-run cases are clearly distinguished and reported.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 323.63 Tm ( - Regression for changed areas is complete or explicitly identified as outstanding.) Tj ET
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 291.59 Tm (Test Closure) Tj ET
+0.090 0.290 0.480 rg BT /F2 11.5 Tf 1 0 0 1 46.00 262.43 Tm (Closure Entry Criteria) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 246.65 Tm ( - Planned execution is complete or remaining work has an agreed disposition.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 231.45 Tm ( - Defect retesting and the release regression pass are complete.) Tj ET
+0.090 0.290 0.480 rg BT /F2 11.5 Tf 1 0 0 1 46.00 203.51 Tm (Closure Exit Criteria) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 187.73 Tm ( - The final test summary, traceability, defect status, and residual risks are delivered.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 172.53 Tm ( - Outstanding deviations from PRD targets are documented with an owner and decision.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 157.33 Tm ( - Required product, engineering, security, and accessibility approvals are recorded according to the project process.) Tj ET
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 125.29 Tm (Tools) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 108.88 Tm ( - Playwright with TypeScript for browser-based functional and responsive checks, consistent with the skill) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 95.68 Tm (metadata.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 80.48 Tm ( - Browser/device and screen-reader tools selected to match the confirmed support matrix.) Tj ET
+0.400 0.450 0.520 rg BT /F1 7.5 Tf 1 0 0 1 46.00 25.00 Tm (VWO Login Dashboard Test Plan  |  Page 3 of 6) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 12762 >>
+stream
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 782.18 Tm ( - Approved performance, security, analytics, and defect-tracking tools are TBD; the PRD does not name specific) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 768.98 Tm (products.) Tj ET
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 736.94 Tm (Risks and Mitigations) Tj ET
+0.890 0.930 0.970 rg 46 707.2399999999999 503.28 25 re f
+0.690 0.760 0.840 RG 0.45 w 46 707.2399999999999 503.28 25 re S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 52.00 719.14 Tm (Risk) Tj ET
+0.780 0.820 0.870 RG 0.45 w 161.7544 707.2399999999999 m 161.7544 732.2399999999999 l S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 167.75 719.14 Tm (Mitigation) Tj ET
+1.000 1.000 1.000 rg 46 659.6399999999999 503.28 47.6 re f
+0.780 0.820 0.870 RG 0.45 w 46 659.6399999999999 503.28 47.6 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 695.35 Tm (Optional MFA, SSO, social) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 685.95 Tm (login, and recovery behavior) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 676.55 Tm (are underspecified or) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 667.15 Tm (unavailable.) Tj ET
+0.780 0.820 0.870 RG 0.45 w 161.7544 659.6399999999999 m 161.7544 707.2399999999999 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 167.75 695.35 Tm (Confirm release scope, protocols, providers, and test accounts before execution; report unavailable coverage) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 167.75 685.95 Tm (as blocked, not passed.) Tj ET
+0.960 0.975 0.990 rg 46 612.0399999999998 503.28 47.6 re f
+0.780 0.820 0.870 RG 0.45 w 46 612.0399999999998 503.28 47.6 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 647.75 Tm (Security tests or account) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 638.35 Tm (lockout/rate limiting could) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 628.95 Tm (affect shared systems or) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 619.55 Tm (users.) Tj ET
+0.780 0.820 0.870 RG 0.45 w 161.7544 612.0399999999998 m 161.7544 659.6399999999999 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 167.75 647.75 Tm (Run only approved checks in isolated test environments with dedicated accounts; coordinate with the) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 167.75 638.35 Tm (authorized security team.) Tj ET
+1.000 1.000 1.000 rg 46 555.0399999999998 503.28 57 re f
+0.780 0.820 0.870 RG 0.45 w 46 555.0399999999998 503.28 57 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 600.15 Tm (Performance and availability) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 590.75 Tm (targets lack workload) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 581.35 Tm (profiles, measurement) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 571.95 Tm (windows, and environment) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 562.55 Tm (definitions.) Tj ET
+0.780 0.820 0.870 RG 0.45 w 161.7544 555.0399999999998 m 161.7544 612.0399999999998 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 167.75 600.15 Tm (Agree on the standard connection, concurrency profile, regions, and measurement method before) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 167.75 590.75 Tm (benchmarking.) Tj ET
+0.960 0.975 0.990 rg 46 507.4399999999998 503.28 47.6 re f
+0.780 0.820 0.870 RG 0.45 w 46 507.4399999999998 503.28 47.6 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 543.15 Tm (GDPR/CCPA, audit, and) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 533.75 Tm (enterprise policy expectations) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 524.35 Tm (are not mapped to specific) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 514.95 Tm (controls.) Tj ET
+0.780 0.820 0.870 RG 0.45 w 161.7544 507.4399999999998 m 161.7544 555.0399999999998 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 167.75 543.15 Tm (Obtain compliance/security acceptance criteria and evidence requirements from the responsible owners.) Tj ET
+1.000 1.000 1.000 rg 46 450.4399999999998 503.28 57 re f
+0.780 0.820 0.870 RG 0.45 w 46 450.4399999999998 503.28 57 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 495.55 Tm (The 95% login success, 90%) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 486.15 Tm (satisfaction, and 20%) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 476.75 Tm (support-ticket reduction) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 467.35 Tm (targets depend on aggregate) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 457.95 Tm (data outside a test run.) Tj ET
+0.780 0.820 0.870 RG 0.45 w 161.7544 450.4399999999998 m 161.7544 507.4399999999998 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 167.75 495.55 Tm (Define analytics sources and reporting periods; validate instrumentation and report actual trends separately) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 167.75 486.15 Tm (from functional pass/fail.) Tj ET
+0.960 0.975 0.990 rg 46 412.23999999999984 503.28 38.2 re f
+0.780 0.820 0.870 RG 0.45 w 46 412.23999999999984 503.28 38.2 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 438.55 Tm (Browser/device support and) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 429.15 Tm (defect triage rules are) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 419.75 Tm (absent from the PRD.) Tj ET
+0.780 0.820 0.870 RG 0.45 w 161.7544 412.23999999999984 m 161.7544 450.4399999999998 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 167.75 438.55 Tm (Confirm the matrix and project defect workflow before test execution.) Tj ET
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 373.69 Tm (Approvals) Tj ET
+0.890 0.930 0.970 rg 46 343.98999999999984 503.28 25 re f
+0.690 0.760 0.840 RG 0.45 w 46 343.98999999999984 503.28 25 re S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 52.00 355.89 Tm (Role) Tj ET
+0.780 0.820 0.870 RG 0.45 w 171.82 343.98999999999984 m 171.82 368.98999999999984 l S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 177.82 355.89 Tm (Name) Tj ET
+0.780 0.820 0.870 RG 0.45 w 297.64 343.98999999999984 m 297.64 368.98999999999984 l S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 303.64 355.89 Tm (Decision) Tj ET
+0.780 0.820 0.870 RG 0.45 w 423.46 343.98999999999984 m 423.46 368.98999999999984 l S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 429.46 355.89 Tm (Date) Tj ET
+1.000 1.000 1.000 rg 46 320.98999999999984 503.28 23 re f
+0.780 0.820 0.870 RG 0.45 w 46 320.98999999999984 503.28 23 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 332.10 Tm (Product owner) Tj ET
+0.780 0.820 0.870 RG 0.45 w 171.82 320.98999999999984 m 171.82 343.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 177.82 332.10 Tm (TBD) Tj ET
+0.780 0.820 0.870 RG 0.45 w 297.64 320.98999999999984 m 297.64 343.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 303.64 332.10 Tm (TBD) Tj ET
+0.780 0.820 0.870 RG 0.45 w 423.46 320.98999999999984 m 423.46 343.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 429.46 332.10 Tm (TBD) Tj ET
+0.960 0.975 0.990 rg 46 297.98999999999984 503.28 23 re f
+0.780 0.820 0.870 RG 0.45 w 46 297.98999999999984 503.28 23 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 309.10 Tm (Engineering owner) Tj ET
+0.780 0.820 0.870 RG 0.45 w 171.82 297.98999999999984 m 171.82 320.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 177.82 309.10 Tm (TBD) Tj ET
+0.780 0.820 0.870 RG 0.45 w 297.64 297.98999999999984 m 297.64 320.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 303.64 309.10 Tm (TBD) Tj ET
+0.780 0.820 0.870 RG 0.45 w 423.46 297.98999999999984 m 423.46 320.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 429.46 309.10 Tm (TBD) Tj ET
+1.000 1.000 1.000 rg 46 274.98999999999984 503.28 23 re f
+0.780 0.820 0.870 RG 0.45 w 46 274.98999999999984 503.28 23 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 286.10 Tm (QA/test owner) Tj ET
+0.780 0.820 0.870 RG 0.45 w 171.82 274.98999999999984 m 171.82 297.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 177.82 286.10 Tm (TBD) Tj ET
+0.780 0.820 0.870 RG 0.45 w 297.64 274.98999999999984 m 297.64 297.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 303.64 286.10 Tm (TBD) Tj ET
+0.780 0.820 0.870 RG 0.45 w 423.46 274.98999999999984 m 423.46 297.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 429.46 286.10 Tm (TBD) Tj ET
+0.960 0.975 0.990 rg 46 251.98999999999984 503.28 23 re f
+0.780 0.820 0.870 RG 0.45 w 46 251.98999999999984 503.28 23 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 263.10 Tm (Security/compliance owner) Tj ET
+0.780 0.820 0.870 RG 0.45 w 171.82 251.98999999999984 m 171.82 274.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 177.82 263.10 Tm (TBD) Tj ET
+0.780 0.820 0.870 RG 0.45 w 297.64 251.98999999999984 m 297.64 274.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 303.64 263.10 Tm (TBD) Tj ET
+0.780 0.820 0.870 RG 0.45 w 423.46 251.98999999999984 m 423.46 274.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 429.46 263.10 Tm (TBD) Tj ET
+1.000 1.000 1.000 rg 46 228.98999999999984 503.28 23 re f
+0.780 0.820 0.870 RG 0.45 w 46 228.98999999999984 503.28 23 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 240.10 Tm (Accessibility owner) Tj ET
+0.780 0.820 0.870 RG 0.45 w 171.82 228.98999999999984 m 171.82 251.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 177.82 240.10 Tm (TBD) Tj ET
+0.780 0.820 0.870 RG 0.45 w 297.64 228.98999999999984 m 297.64 251.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 303.64 240.10 Tm (TBD) Tj ET
+0.780 0.820 0.870 RG 0.45 w 423.46 228.98999999999984 m 423.46 251.98999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 429.46 240.10 Tm (TBD) Tj ET
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 190.44 Tm (Core Test Scenarios) Tj ET
+0.890 0.930 0.970 rg 46 160.73999999999984 503.28 25 re f
+0.690 0.760 0.840 RG 0.45 w 46 160.73999999999984 503.28 25 re S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 52.00 172.64 Tm (ID) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 160.73999999999984 m 106.39359999999999 185.73999999999984 l S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 112.39 172.64 Tm (Area) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 160.73999999999984 m 207.0496 185.73999999999984 l S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 213.05 172.64 Tm (Scenario and expected result) Tj ET
+1.000 1.000 1.000 rg 46 131.93999999999983 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 131.93999999999983 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 148.85 Tm (AUTH-01) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 131.93999999999983 m 106.39359999999999 160.73999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 148.85 Tm (Login) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 131.93999999999983 m 207.0496 160.73999999999984 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 148.85 Tm (Submit valid email and password; authentication succeeds and the user reaches the VWO) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 139.45 Tm (dashboard.) Tj ET
+0.960 0.975 0.990 rg 46 103.13999999999983 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 103.13999999999983 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 120.05 Tm (AUTH-02) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 103.13999999999983 m 106.39359999999999 131.93999999999983 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 120.05 Tm (Login) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 103.13999999999983 m 207.0496 131.93999999999983 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 120.05 Tm (Submit incorrect credentials; access is denied and a clear, actionable error is shown without) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 110.65 Tm (exposing sensitive information.) Tj ET
+1.000 1.000 1.000 rg 46 74.33999999999983 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 74.33999999999983 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 91.25 Tm (AUTH-03) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 74.33999999999983 m 106.39359999999999 103.13999999999983 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 91.25 Tm (Validation) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 74.33999999999983 m 207.0496 103.13999999999983 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 91.25 Tm (Blur an empty or malformed email field; immediate, understandable validation feedback is shown) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 81.85 Tm (and submission behavior is correct.) Tj ET
+0.400 0.450 0.520 rg BT /F1 7.5 Tf 1 0 0 1 46.00 25.00 Tm (VWO Login Dashboard Test Plan  |  Page 4 of 6) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 18917 >>
+stream
+0.890 0.930 0.970 rg 46 768.89 503.28 25 re f
+0.690 0.760 0.840 RG 0.45 w 46 768.89 503.28 25 re S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 52.00 780.79 Tm (ID) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 768.89 m 106.39359999999999 793.89 l S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 112.39 780.79 Tm (Area) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 768.89 m 207.0496 793.89 l S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 213.05 780.79 Tm (Scenario and expected result) Tj ET
+0.960 0.975 0.990 rg 46 740.09 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 740.09 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 757.00 Tm (AUTH-04) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 740.09 m 106.39359999999999 768.89 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 757.00 Tm (Validation) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 740.09 m 207.0496 768.89 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 757.00 Tm (Submit missing or invalid required fields; invalid data is not accepted and field feedback is) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 747.61 Tm (accessible.) Tj ET
+1.000 1.000 1.000 rg 46 711.2900000000001 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 711.2900000000001 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 728.21 Tm (AUTH-05) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 711.2900000000001 m 106.39359999999999 740.09 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 728.21 Tm (Password) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 711.2900000000001 m 207.0496 740.09 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 728.21 Tm (Verify password requirement/strength feedback against the confirmed password policy; the UI) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 718.81 Tm (does not claim requirements that differ from server enforcement.) Tj ET
+0.960 0.975 0.990 rg 46 682.4900000000001 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 682.4900000000001 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 699.41 Tm (AUTH-06) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 682.4900000000001 m 106.39359999999999 711.2900000000001 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 699.41 Tm (Loading) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 682.4900000000001 m 207.0496 711.2900000000001 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 699.41 Tm (Submit login and observe the processing state; feedback is visible and duplicate submissions are) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 690.01 Tm (handled safely.) Tj ET
+1.000 1.000 1.000 rg 46 653.6900000000002 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 653.6900000000002 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 670.61 Tm (AUTH-07) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 653.6900000000002 m 106.39359999999999 682.4900000000001 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 670.61 Tm (Remember Me) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 653.6900000000002 m 207.0496 682.4900000000001 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 670.61 Tm (Log in with the option selected and unselected; persistence matches the defined session policy) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 661.21 Tm (and does not exceed configured timeout/security rules.) Tj ET
+0.960 0.975 0.990 rg 46 624.8900000000002 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 624.8900000000002 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 641.81 Tm (AUTH-08) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 624.8900000000002 m 106.39359999999999 653.6900000000002 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 641.81 Tm (Session) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 624.8900000000002 m 207.0496 653.6900000000002 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 641.81 Tm (Verify configured timeout and session-token behavior, including expired-session handling and) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 632.41 Tm (return to an appropriate authentication state.) Tj ET
+1.000 1.000 1.000 rg 46 596.0900000000003 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 596.0900000000003 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 613.01 Tm (AUTH-09) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 596.0900000000003 m 106.39359999999999 624.8900000000002 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 613.01 Tm (MFA) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 596.0900000000003 m 207.0496 624.8900000000002 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 613.01 Tm (For accounts with MFA enabled, complete valid and invalid second-factor flows; access is) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 603.61 Tm (granted only after successful verification.) Tj ET
+0.960 0.975 0.990 rg 46 567.2900000000003 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 567.2900000000003 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 584.21 Tm (AUTH-10) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 567.2900000000003 m 106.39359999999999 596.0900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 584.21 Tm (SSO) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 567.2900000000003 m 207.0496 596.0900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 584.21 Tm (For each enabled enterprise protocol/provider, verify successful sign-in, cancellation, and) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 574.81 Tm (failure recovery without unintended access.) Tj ET
+1.000 1.000 1.000 rg 46 538.4900000000004 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 538.4900000000004 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 555.41 Tm (REC-01) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 538.4900000000004 m 106.39359999999999 567.2900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 555.41 Tm (Password recovery) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 538.4900000000004 m 207.0496 567.2900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 555.41 Tm (Request reset for an eligible account; the user receives the expected recovery flow and can set) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 546.01 Tm (a password meeting the confirmed policy.) Tj ET
+0.960 0.975 0.990 rg 46 509.69000000000034 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 509.69000000000034 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 526.61 Tm (REC-02) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 509.69000000000034 m 106.39359999999999 538.4900000000004 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 526.61 Tm (Password recovery) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 509.69000000000034 m 207.0496 538.4900000000004 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 526.61 Tm (Exercise invalid, expired, reused, or otherwise unusable reset tokens; reset is denied and the) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 517.21 Tm (user receives safe recovery guidance.) Tj ET
+1.000 1.000 1.000 rg 46 480.8900000000003 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 480.8900000000003 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 497.81 Tm (REC-03) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 480.8900000000003 m 106.39359999999999 509.69000000000034 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 497.81 Tm (Password recovery) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 480.8900000000003 m 207.0496 509.69000000000034 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 497.81 Tm (Compare responses for eligible and ineligible account identifiers to verify the approved privacy) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 488.41 Tm (behavior and avoid unnecessary account disclosure.) Tj ET
+0.960 0.975 0.990 rg 46 457.8900000000003 503.28 23 re f
+0.780 0.820 0.870 RG 0.45 w 46 457.8900000000003 503.28 23 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 469.01 Tm (UX-01) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 457.8900000000003 m 106.39359999999999 480.8900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 469.01 Tm (Navigation) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 457.8900000000003 m 207.0496 480.8900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 469.01 Tm (Follow the free-trial/registration link; it opens the intended registration destination.) Tj ET
+1.000 1.000 1.000 rg 46 429.0900000000003 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 429.0900000000003 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 446.01 Tm (UX-02) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 429.0900000000003 m 106.39359999999999 457.8900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 446.01 Tm (Branding/theme) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 429.0900000000003 m 207.0496 457.8900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 446.01 Tm (Verify VWO branding, announcement content, and light/dark theme behavior at supported) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 436.61 Tm (viewports.) Tj ET
+0.960 0.975 0.990 rg 46 400.2900000000003 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 400.2900000000003 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 417.21 Tm (UX-03) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 400.2900000000003 m 106.39359999999999 429.0900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 417.21 Tm (Responsive) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 400.2900000000003 m 207.0496 429.0900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 417.21 Tm (Use the login page at agreed mobile and desktop viewport sizes; controls remain readable,) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 407.81 Tm (usable, and do not overlap.) Tj ET
+1.000 1.000 1.000 rg 46 371.4900000000003 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 371.4900000000003 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 388.41 Tm (UX-04) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 371.4900000000003 m 106.39359999999999 400.2900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 388.41 Tm (Focus/labels) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 371.4900000000003 m 207.0496 400.2900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 388.41 Tm (Verify initial focus, clickable labels, logical keyboard order, visible focus, and operation without a) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 379.01 Tm (pointer.) Tj ET
+0.960 0.975 0.990 rg 46 342.6900000000003 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 342.6900000000003 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 359.61 Tm (UX-05) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 342.6900000000003 m 106.39359999999999 371.4900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 359.61 Tm (Screen reader) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 342.6900000000003 m 207.0496 371.4900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 359.61 Tm (Verify accessible names, field errors, status/loading feedback, and interactive controls with) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 350.21 Tm (supported assistive technology.) Tj ET
+1.000 1.000 1.000 rg 46 313.89000000000027 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 313.89000000000027 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 330.81 Tm (UX-06) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 313.89000000000027 m 106.39359999999999 342.6900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 330.81 Tm (Contrast) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 313.89000000000027 m 207.0496 342.6900000000003 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 330.81 Tm (Check normal and high-contrast modes against WCAG 2.1 AA criteria for the in-scope page and) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 321.41 Tm (states.) Tj ET
+0.960 0.975 0.990 rg 46 285.09000000000026 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 285.09000000000026 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 302.01 Tm (INT-01) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 285.09000000000026 m 106.39359999999999 313.89000000000027 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 302.01 Tm (Platform) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 285.09000000000026 m 207.0496 313.89000000000027 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 302.01 Tm (Verify successful authentication transitions to the correct VWO dashboard and preserves the) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 292.61 Tm (intended context from the prior session where specified.) Tj ET
+1.000 1.000 1.000 rg 46 256.29000000000025 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 256.29000000000025 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 273.21 Tm (INT-02) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 256.29000000000025 m 106.39359999999999 285.09000000000026 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 273.21 Tm (Analytics) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 256.29000000000025 m 207.0496 285.09000000000026 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 273.21 Tm (Verify successful and failed login events are recorded as intended without sending passwords,) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 263.81 Tm (tokens, or other authentication secrets.) Tj ET
+0.960 0.975 0.990 rg 46 233.29000000000025 503.28 23 re f
+0.780 0.820 0.870 RG 0.45 w 46 233.29000000000025 503.28 23 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 244.41 Tm (INT-03) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 233.29000000000025 m 106.39359999999999 256.29000000000025 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 244.41 Tm (Support) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 233.29000000000025 m 207.0496 256.29000000000025 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 244.41 Tm (Verify the login-assistance path reaches the configured customer support experience.) Tj ET
+1.000 1.000 1.000 rg 46 204.49000000000024 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 204.49000000000024 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 221.41 Tm (SEC-01) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 204.49000000000024 m 106.39359999999999 233.29000000000025 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 221.41 Tm (Transport) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 204.49000000000024 m 207.0496 233.29000000000025 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 221.41 Tm (Verify login and recovery communications use HTTPS and that authentication data is not) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 212.01 Tm (transmitted over insecure connections.) Tj ET
+0.960 0.975 0.990 rg 46 175.69000000000023 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 175.69000000000023 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 192.61 Tm (SEC-02) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 175.69000000000023 m 106.39359999999999 204.49000000000024 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 192.61 Tm (Rate limiting) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 175.69000000000023 m 207.0496 204.49000000000024 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 192.61 Tm (Verify repeated authentication attempts are throttled according to the approved policy and) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 183.21 Tm (legitimate recovery is possible.) Tj ET
+1.000 1.000 1.000 rg 46 146.8900000000002 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 146.8900000000002 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 163.81 Tm (SEC-03) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 146.8900000000002 m 106.39359999999999 175.69000000000023 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 163.81 Tm (Session security) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 146.8900000000002 m 207.0496 175.69000000000023 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 163.81 Tm (Verify session tokens are generated, handled, and invalidated according to approved session) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 154.41 Tm (requirements.) Tj ET
+0.960 0.975 0.990 rg 46 118.09000000000022 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 118.09000000000022 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 135.01 Tm (SEC-04) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 118.09000000000022 m 106.39359999999999 146.8900000000002 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 135.01 Tm (Data handling) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 118.09000000000022 m 207.0496 146.8900000000002 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 135.01 Tm (Verify credentials are not exposed in page content, browser-visible logs, analytics, or error) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 125.61 Tm (messages; validate stored-password controls through approved evidence/review.) Tj ET
+1.000 1.000 1.000 rg 46 89.29000000000022 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 89.29000000000022 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 106.21 Tm (PERF-01) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 89.29000000000022 m 106.39359999999999 118.09000000000022 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 106.21 Tm (Load time) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 89.29000000000022 m 207.0496 118.09000000000022 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 106.21 Tm (Measure login-page load under the agreed standard connection; compare results with the PRD's) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 96.81 Tm (2-second target.) Tj ET
+0.960 0.975 0.990 rg 46 60.49000000000022 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 60.49000000000022 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 77.41 Tm (PERF-02) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 60.49000000000022 m 106.39359999999999 89.29000000000022 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 77.41 Tm (Concurrent access) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 60.49000000000022 m 207.0496 89.29000000000022 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 77.41 Tm (Exercise the agreed concurrent-login profile and check response behavior, errors, and) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 68.01 Tm (monitoring against the approved expectations.) Tj ET
+0.400 0.450 0.520 rg BT /F1 7.5 Tf 1 0 0 1 46.00 25.00 Tm (VWO Login Dashboard Test Plan  |  Page 5 of 6) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 3492 >>
+stream
+0.890 0.930 0.970 rg 46 768.89 503.28 25 re f
+0.690 0.760 0.840 RG 0.45 w 46 768.89 503.28 25 re S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 52.00 780.79 Tm (ID) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 768.89 m 106.39359999999999 793.89 l S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 112.39 780.79 Tm (Area) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 768.89 m 207.0496 793.89 l S
+0.100 0.250 0.400 rg BT /F2 8.1 Tf 1 0 0 1 213.05 780.79 Tm (Scenario and expected result) Tj ET
+1.000 1.000 1.000 rg 46 740.09 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 740.09 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 757.00 Tm (REL-01) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 740.09 m 106.39359999999999 768.89 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 757.00 Tm (Availability) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 740.09 m 207.0496 768.89 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 757.00 Tm (Review service monitoring over the agreed observation window against the 99.9% uptime) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 747.61 Tm (target.) Tj ET
+0.960 0.975 0.990 rg 46 711.2900000000001 503.28 28.8 re f
+0.780 0.820 0.870 RG 0.45 w 46 711.2900000000001 503.28 28.8 re S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 52.00 728.21 Tm (REL-02) Tj ET
+0.780 0.820 0.870 RG 0.45 w 106.39359999999999 711.2900000000001 m 106.39359999999999 740.09 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 112.39 728.21 Tm (Geographic performance) Tj ET
+0.780 0.820 0.870 RG 0.45 w 207.0496 711.2900000000001 m 207.0496 740.09 l S
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 728.21 Tm (Measure login experience from agreed regions and review CDN/global deployment behavior) Tj ET
+0.140 0.190 0.260 rg BT /F1 7.65 Tf 1 0 0 1 213.05 718.81 Tm (against defined expectations.) Tj ET
+0.090 0.290 0.480 rg BT /F2 15 Tf 1 0 0 1 46.00 672.74 Tm (Open Decisions) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 656.33 Tm ( - Confirm supported browsers, operating systems, devices, and screen readers.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 641.13 Tm ( - Define exact email/password validation and password-strength rules, authentication error wording, lockout) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 627.93 Tm (behavior, session timeout, and remember-me persistence.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 612.73 Tm ( - Confirm supported MFA factors, SSO protocols/providers, social login providers, and password recovery methods) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 599.53 Tm (for the release.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 584.33 Tm ( - Define reset-token lifetime and reuse policy, rate-limit thresholds, session-token requirements, and security) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 571.13 Tm (evidence owners.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 555.93 Tm ( - Agree on performance load profiles, global regions, uptime measurement window, standard network conditions, and) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 542.73 Tm (source of success/satisfaction/support metrics.) Tj ET
+0.140 0.190 0.260 rg BT /F1 9.3 Tf 1 0 0 1 54.00 527.53 Tm ( - Confirm compliance control mapping, test-data handling, defect workflow, dates, owners, and approvers.) Tj ET
+0.400 0.450 0.520 rg BT /F1 7.5 Tf 1 0 0 1 46.00 25.00 Tm (VWO Login Dashboard Test Plan  |  Page 6 of 6) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 15 0 R >>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000155 00000 n 
+0000000252 00000 n 
+0000000354 00000 n 
+0000006581 00000 n 
+0000006723 00000 n 
+0000015375 00000 n 
+0000015517 00000 n 
+0000020974 00000 n 
+0000021117 00000 n 
+0000033932 00000 n 
+0000034076 00000 n 
+0000053046 00000 n 
+0000053190 00000 n 
+0000056734 00000 n 
+trailer
+<< /Size 17 /Root 1 0 R >>
+startxref
+56878
+%%EOF
